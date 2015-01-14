@@ -10,5 +10,10 @@ starting and finishing dates and should help the user to get an overview of:
 
 ## Please run  to seed the database with its default values
 
-```shell
+```
 rake db:seed
+```
+
+The dashboard is running here:
+
+https://iversitydashboard.herokuapp.com
