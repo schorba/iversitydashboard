@@ -1,0 +1,6 @@
+:ruby
+  courses = Course.finish_soon
+- courses.each do |course|
+  = link_to course.title, dashboard_path(course)
+  %br
+

@@ -1,0 +1,9 @@
+= render template: 'layouts/website'
+.container-fluid
+  .course_info
+    %h4 Massive Online  Open  Courses - Active
+    = button_to 'Show Advanced Info', active_charts_dashboard_index_path, class: 'btn', method: 'get', id: 'show-active-button', remote: true
+    %br
+    #active_courses
+  %br
+    = draw_active_charts

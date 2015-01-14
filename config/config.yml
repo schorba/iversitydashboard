@@ -1,0 +1,9 @@
+development:
+
+  url: "https://iversity.org/en/courses.json"
+
+test:
+
+
+production:
+  url: "https://iversity.org/en/courses.json"

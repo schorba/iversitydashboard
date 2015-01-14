@@ -1,0 +1,9 @@
+= render template: 'layouts/website'
+.container-fluid
+  .course_info
+    %h4 Massive Online  Open  Courses - Finish This Month
+    = button_to 'Show Advanced Info', finish_soon_dashboard_index_path, class: 'btn', method: 'get', id: 'show-active-button', remote: true
+    %br
+    #finish_soon_courses
+  %br
+    = draw_finish_soon_charts
