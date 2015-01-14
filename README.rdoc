@@ -7,9 +7,7 @@ starting and finishing dates and should help the user to get an overview of:
 *  How many and which courses are going to start soon.
 *  How many and which courses are going to finish soon.
 
-
-## Please run  to seed the database with its default values
-
+### Please run  to seed the database with its default values
 ```
 rake db:seed
 ```
