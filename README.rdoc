@@ -1,28 +1,14 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a dashboard which  visualises the running time of
+MOOCs (Massive Online  Open  Courses)  on  "Iversuty"  platform. This  dashboard is based on  the  courses
+starting and finishing dates and should help the user to get an overview of:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*  How courses’ runtimes are distributed over time
+*  How many and which courses are going to start soon.
+*  How many and which courses are going to finish soon.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## Please run  to seed the database with its default values
+
+```shell
+rake db:seed
